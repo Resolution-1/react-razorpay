@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.App-text {
+  font-family: cursive;
+  font-size: clamp(1rem,2.5vw,2rem)
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -25,7 +30,10 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
