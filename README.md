@@ -16,7 +16,9 @@ cd react-razorpay
 
 > Get your Razorpay API keys [`key_id` and `key_secret`] for test environment variables from here, [https://dashboard.razorpay.com/#/app/keys](https://dashboard.razorpay.com/#/app/keys)
 
-``` Replace [`key_id` and `key_secret`] in REACT_APP_RAZORPAY_ID and REACT_APP_RAZORPAY_PASSWORD in .env.local file ```
+```javascript
+Replace [`key_id` and `key_secret`] in REACT_APP_RAZORPAY_ID and REACT_APP_RAZORPAY_PASSWORD in .env.local file 
+```
 
 ## Installation
 
